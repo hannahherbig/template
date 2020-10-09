@@ -73,7 +73,7 @@ license = ["editdistance"]
 
 [[package]]
 name = "isort"
-version = "5.5.5"
+version = "5.6.1"
 description = "A Python utility / library to sort Python imports."
 category = "dev"
 optional = false
@@ -212,7 +212,7 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "282bbba1549efd369627d3c795e11256018284c7fa971d4ae4b42d240253c4ba"
+content-hash = "6653d8915266f59f5d492c8cf25ca2f7dea1a527dde33efe79c8aa7aa1a56abb"
 
 [metadata.files]
 appdirs = [
@@ -243,8 +243,8 @@ identify = [
     {file = "identify-1.5.5.tar.gz", hash = "sha256:7c22c384a2c9b32c5cc891d13f923f6b2653aa83e2d75d8f79be240d6c86c4f4"},
 ]
 isort = [
-    {file = "isort-5.5.5-py3-none-any.whl", hash = "sha256:87355bbc3465bf096a8bf09c4dd949b6b9294958c478740442fd9fbd01b817f2"},
-    {file = "isort-5.5.5.tar.gz", hash = "sha256:47e0fdc03aed3a9ba507284f90e4b3b6f2a4725d919816a7b547675befc38ffb"},
+    {file = "isort-5.6.1-py3-none-any.whl", hash = "sha256:dd3211f513f4a92ec1ec1876fc1dc3c686649c349d49523f5b5adbb0814e5960"},
+    {file = "isort-5.6.1.tar.gz", hash = "sha256:2f510f34ae18a8d0958c53eec51ef84fd099f07c4c639676525acbcd7b5bd3ff"},
 ]
 mypy-extensions = [
     {file = "mypy_extensions-0.4.3-py2.py3-none-any.whl", hash = "sha256:090fedd75945a69ae91ce1303b5824f428daf5a028d2f6ab8a299250a846f15d"},
