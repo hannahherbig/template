@@ -127,7 +127,7 @@ virtualenv = ">=20.0.8"
 
 [[package]]
 name = "pyupgrade"
-version = "2.25.0"
+version = "2.26.0"
 description = "A tool to automatically upgrade syntax for newer versions."
 category = "dev"
 optional = false
@@ -205,7 +205,7 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "97966965a390f3136bd2700eaff73a18cdfed54ef79b322ec65b24390f18a7eb"
+content-hash = "797cd8ab25a142a6e7f75dbc852e7add54a0efa5f6abb19eb8f734baabb24047"
 
 [metadata.files]
 appdirs = [
@@ -257,8 +257,8 @@ pre-commit = [
     {file = "pre_commit-2.15.0.tar.gz", hash = "sha256:3c25add78dbdfb6a28a651780d5c311ac40dd17f160eb3954a0c59da40a505a7"},
 ]
 pyupgrade = [
-    {file = "pyupgrade-2.25.0-py2.py3-none-any.whl", hash = "sha256:8409f4a166d8fbbf475e4e63912817f8ec07c402979f9399658929ebafaa6043"},
-    {file = "pyupgrade-2.25.0.tar.gz", hash = "sha256:a61084aae26ccedd6ae98fc0cc09383ce4e11b6d519653ff5e2fd131d2023723"},
+    {file = "pyupgrade-2.26.0-py2.py3-none-any.whl", hash = "sha256:fcfde421775d356eb1e7da443fb23fad6dceca411d8c014acebaed1c2bfeed52"},
+    {file = "pyupgrade-2.26.0.tar.gz", hash = "sha256:03eba5ee3494c334d634a272774a30b0aa28af4f5f07f1d3f5d5bedee86c5bcb"},
 ]
 pyyaml = [
     {file = "PyYAML-5.3.1-cp27-cp27m-win32.whl", hash = "sha256:74809a57b329d6cc0fdccee6318f44b9b8649961fa73144a98735b0aaf029f1f"},
