@@ -144,7 +144,7 @@ virtualenv = ">=20.0.8"
 
 [[package]]
 name = "pyupgrade"
-version = "2.29.0"
+version = "2.29.1"
 description = "A tool to automatically upgrade syntax for newer versions."
 category = "dev"
 optional = false
@@ -230,7 +230,7 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "942410840d43d1a5eb86454ece6cd39131b1135a2ab7d2f3f10662e53322f138"
+content-hash = "5b3159e80c9a569ca04c0b94e64bfcf91bf8230547a8ac31837457c271196d1b"
 
 [metadata.files]
 appdirs = [
@@ -286,8 +286,8 @@ pre-commit = [
     {file = "pre_commit-2.15.0.tar.gz", hash = "sha256:3c25add78dbdfb6a28a651780d5c311ac40dd17f160eb3954a0c59da40a505a7"},
 ]
 pyupgrade = [
-    {file = "pyupgrade-2.29.0-py2.py3-none-any.whl", hash = "sha256:04938c7e8e4e8b476ae2b727306ecfaea95a83b707acbe6929864100dd6d9701"},
-    {file = "pyupgrade-2.29.0.tar.gz", hash = "sha256:27bfbc38854a40a70767ef6cbf3bf133c5472557905f0f9fe7ba5f58975701e4"},
+    {file = "pyupgrade-2.29.1-py2.py3-none-any.whl", hash = "sha256:1d3f03d14652caacd6f3d464696e103ef33578531a5c1b995be3821b14b811b7"},
+    {file = "pyupgrade-2.29.1.tar.gz", hash = "sha256:737e02bed0de70247df5d2a0c3edba6b4529adf44f5ef588ecda4a69f14bf694"},
 ]
 pyyaml = [
     {file = "PyYAML-5.3.1-cp27-cp27m-win32.whl", hash = "sha256:74809a57b329d6cc0fdccee6318f44b9b8649961fa73144a98735b0aaf029f1f"},
@@ -351,6 +351,7 @@ tomli = [
 ]
 typing-extensions = [
     {file = "typing_extensions-4.0.0-py3-none-any.whl", hash = "sha256:829704698b22e13ec9eaf959122315eabb370b0884400e9818334d8b677023d9"},
+    {file = "typing_extensions-4.0.0.tar.gz", hash = "sha256:2cdf80e4e04866a9b3689a51869016d36db0814d84b8d8a568d22781d45d27ed"},
 ]
 virtualenv = [
     {file = "virtualenv-20.0.33-py2.py3-none-any.whl", hash = "sha256:35ecdeb58cfc2147bb0706f7cdef69a8f34f1b81b6d49568174e277932908b8f"},
