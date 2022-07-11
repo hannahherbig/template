@@ -128,7 +128,7 @@ test = ["appdirs (==1.4.4)", "pytest (>=6)", "pytest-cov (>=2.7)", "pytest-mock 
 
 [[package]]
 name = "pre-commit"
-version = "2.19.0"
+version = "2.20.0"
 description = "A framework for managing and maintaining multi-language pre-commit hooks."
 category = "dev"
 optional = false
@@ -230,7 +230,7 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "a09de52b9b63d137b01e368e6acbe5c7a8b7dc625d9f5649bad270e0b464f777"
+content-hash = "0409f974e18d61c4eecbc838f68922a2061e735c7e8444af567f9a5c79066a67"
 
 [metadata.files]
 appdirs = []
