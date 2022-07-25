@@ -123,8 +123,8 @@ optional = false
 python-versions = ">=3.6"
 
 [package.extras]
-docs = ["Sphinx (>=4)", "furo (>=2021.7.5b38)", "proselint (>=0.10.2)", "sphinx-autodoc-typehints (>=1.12)"]
-test = ["appdirs (==1.4.4)", "pytest (>=6)", "pytest-cov (>=2.7)", "pytest-mock (>=3.6)"]
+test = ["pytest-mock (>=3.6)", "pytest-cov (>=2.7)", "pytest (>=6)", "appdirs (==1.4.4)"]
+docs = ["sphinx-autodoc-typehints (>=1.12)", "proselint (>=0.10.2)", "furo (>=2021.7.5b38)", "Sphinx (>=4)"]
 
 [[package]]
 name = "pre-commit"
@@ -144,7 +144,7 @@ virtualenv = ">=20.0.8"
 
 [[package]]
 name = "pyupgrade"
-version = "2.37.1"
+version = "2.37.2"
 description = "A tool to automatically upgrade syntax for newer versions."
 category = "dev"
 optional = false
@@ -230,7 +230,7 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "c85c076d74fcd1a40a189b5c3b42d6191b4872532e3b9291c34acf55d3e03fca"
+content-hash = "627640bcae2de83c6c2210f9ef5baa898cd8106a2ebe254a68dae2e1a06aaea7"
 
 [metadata.files]
 appdirs = [
@@ -286,8 +286,8 @@ pre-commit = [
     {file = "pre_commit-2.20.0.tar.gz", hash = "sha256:a978dac7bc9ec0bcee55c18a277d553b0f419d259dadb4b9418ff2d00eb43959"},
 ]
 pyupgrade = [
-    {file = "pyupgrade-2.37.1-py2.py3-none-any.whl", hash = "sha256:dd2a32628d6d2a7dd6c086d98420e234b9e60c1e1d4c55431578491703e762a5"},
-    {file = "pyupgrade-2.37.1.tar.gz", hash = "sha256:3d9cbd88507a0f3d7397c46870617f0d073d61401c451c08a06763d6235d9e7d"},
+    {file = "pyupgrade-2.37.2-py2.py3-none-any.whl", hash = "sha256:5394cd5b1a8e1e4973c98ed2725449492dd2f2a285079c7b62ebaf06095bfce7"},
+    {file = "pyupgrade-2.37.2.tar.gz", hash = "sha256:137d7e624d94e998092d8aa4e0e701e9a6101b2d8b4ee469c41b617a6f98b1d1"},
 ]
 pyyaml = [
     {file = "PyYAML-5.3.1-cp27-cp27m-win32.whl", hash = "sha256:74809a57b329d6cc0fdccee6318f44b9b8649961fa73144a98735b0aaf029f1f"},
