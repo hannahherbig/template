@@ -2,7 +2,7 @@
 name = "template"
 version = "0.1.0"
 description = ""
-authors = ["Andrew Herbig <notandrewherbig@gmail.com>"]
+authors = ["Hannah Herbig <nothannahherbig@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
