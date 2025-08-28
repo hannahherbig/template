@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+# No production dependencies currently
+
+[dev-packages]
+black = "==21.10b0"
+isort = "==5.11.4"
+pre-commit = "==2.21.0"
+pyupgrade = "==3.3.1"
+
+[requires]
+python_version = "3.8"

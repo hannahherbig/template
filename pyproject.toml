@@ -1,17 +1,11 @@
-[tool.poetry]
+[project]
 name = "template"
 version = "0.1.0"
 description = ""
-authors = ["Hannah Herbig <nothannahherbig@gmail.com>"]
-
-[tool.poetry.dependencies]
-python = "^3.8"
-
-[tool.poetry.dev-dependencies]
-black = "^21.10b0"
-isort = "^5.11.4"
-pre-commit = "^2.21.0"
-pyupgrade = "^3.3.1"
+authors = [
+    {name = "Hannah Herbig", email = "nothannahherbig@gmail.com"}
+]
+requires-python = ">=3.8"
 
 [tool.black]
 line-length = 88
@@ -23,7 +17,3 @@ force_grid_wrap = 0
 use_parentheses = true
 ensure_newline_before_comments = true
 line_length = 88
-
-[build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
