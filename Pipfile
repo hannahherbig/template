@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-# No production dependencies currently
 
 [dev-packages]
 black = "==21.10b0"
