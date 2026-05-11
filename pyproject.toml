@@ -9,7 +9,7 @@ dependencies = []
 [dependency-groups]
 dev = [
     "ruff==0.0.348",
-    "pre-commit==2.21.0",
+    "pre-commit==4.6.0",
     "pyupgrade==3.21.2",
 ]
 
